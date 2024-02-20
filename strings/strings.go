@@ -6,5 +6,5 @@ func Reverse(str string) string {
 	for _, v := range str {
 		rstr = string(v) + rstr
 	}
-	return rstr
+	return rstr, err
 }
